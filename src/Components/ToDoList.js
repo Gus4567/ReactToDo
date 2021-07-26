@@ -1,18 +1,13 @@
-import React, {Fragment} from "react";
-
+import React, { Fragment } from "react";
 
 const ListOfTodo = ({ text }) => {
-    
-    return (
-      <Fragment>
-      <ul className='task-list'>
-        <li>
+  return (
+    <>
+      <ul className="task-list">
         {text}
-        </li>
       </ul>
-      </Fragment>
-    );
-  };
-  
+    </>
+  );
+};
 
-  export default ListOfTodo;
+export default ListOfTodo;
